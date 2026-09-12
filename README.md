@@ -18,6 +18,16 @@
 
 ---
 
+## Enable the free site (no Actions)
+
+1. Open [Pages settings](https://github.com/ArvinHampton/Golden-Crypto-Coin/settings/pages)
+2. Source → **Deploy from a branch**
+3. Branch → `main` / folder → `/docs` → Save
+
+Site: https://arvinhampton.github.io/Golden-Crypto-Coin/
+
+---
+
 ## Why Golden Crypto
 
 - **Deflationary** — 1% of every transfer burned
@@ -66,7 +76,8 @@ Still in the heritage repo (free to hotlink / mirror later):
 - [x] On-chain status published
 - [x] Announcement pack
 - [x] Brand-separation review (539 Labs Ops)
-- [ ] Enable GitHub Pages (one Settings click)
+- [x] Remove failing Actions Pages workflow
+- [ ] Enable GitHub Pages from branch `main` / `/docs`
 - [ ] Post announcement (prefer `@ArvinHampton` / personal channels — not 539 Labs investor channels)
 - [ ] Community channels
 - [ ] Liquidity only when capital exists
