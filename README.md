@@ -1,8 +1,10 @@
 # Golden Crypto Coin (GOLDC)
 
-**Public presence home** for Golden Crypto Coin — open-source BEP-20 with built-in burn and charity routing. Stewarded by [539 Labs](https://539labs.org).
+**Public presence home** for Golden Crypto Coin — an open-source BEP-20 with built-in burn and charity routing. Published by [Arvin Hampton](https://github.com/ArvinHampton).
 
-> **Presence-first / zero-budget.** Docs and community first. DEX liquidity is currently near-zero — this is **not** an active trading market until a funded pool exists.
+> **Separate product.** GOLDC is not the 539 Labs cryptography / HQH-539-512 / investor-researcher track. Those stay at [539labs.org](https://539labs.org).
+
+> **Presence-first / zero-budget.** Docs and community first. DEX liquidity is currently near-zero (~$2 reserve, no active priced market) — **not** an active trading market until a funded pool exists.
 
 | | |
 |---|---|
@@ -12,7 +14,7 @@
 | **Mechanics** | 1% burn + 1% charity on every transfer |
 | **Charity** | [Free the Food](https://giveth.io/project/free-the-food) |
 | **Site** | [arvinhampton.github.io/Golden-Crypto-Coin](https://arvinhampton.github.io/Golden-Crypto-Coin/) (enable Pages if blank) |
-| **Heritage** | [`GHampton23/Crypto`](https://github.com/GHampton23/Crypto) |
+| **Heritage** | [`GHampton23/Crypto`](https://github.com/GHampton23/Crypto) (2021) |
 
 ---
 
@@ -21,7 +23,7 @@
 - **Deflationary** — 1% of every transfer burned
 - **Charity on-chain** — 1% to Free the Food
 - **Open source** — contract in this repo
-- **539 Labs stewardship** — public relaunch under Arvin Hampton
+- **Honest status** — public docs first; liquidity later if/when capital exists
 
 Not financial advice. Crypto is risky. DYOR. Nothing here is an offer to sell securities.
 
@@ -63,11 +65,12 @@ Still in the heritage repo (free to hotlink / mirror later):
 - [x] Landing page + zero-budget playbook
 - [x] On-chain status published
 - [x] Announcement pack
+- [x] Brand-separation review (539 Labs Ops)
 - [ ] Enable GitHub Pages (one Settings click)
-- [ ] Fix X connection / post announcement
+- [ ] Post announcement (prefer `@ArvinHampton` / personal channels — not 539 Labs investor channels)
 - [ ] Community channels
 - [ ] Liquidity only when capital exists
 
 ---
 
-**539 Labs, LLC** · [539labs.org](https://539labs.org) · [ArvinHampton](https://github.com/ArvinHampton)
+**Arvin Hampton** · [GitHub](https://github.com/ArvinHampton) · Telegram `@ArvinHampton`
