@@ -1,33 +1,29 @@
 # Golden Crypto — Launch Ops
 
+## Brand boundary (539 Labs Ops)
+
+- **GOLDC** = separate public product / presence-first relaunch
+- **539 Labs Inc. / HQH-539-512 / T3** = cryptography + investor/researcher track at https://539labs.org
+- Do **not** pitch GOLDC inside 539 Labs investor emails or imply HQH is the token stack
+- Public GOLDC entity naming: prefer “Arvin Hampton” / “Golden Crypto Coin”; avoid inventing LLC/Inc suffixes until Arvin locks one for this product
+- Public contact for GOLDC: Telegram `@ArvinHampton` (optional)
+
 ## Stack
 
 | Rail | Role |
 |---|---|
 | GitHub (`ArvinHampton/Golden-Crypto-Coin`) | Canonical public docs + contract |
-| BSC / PancakeSwap | Token trading (not Stripe) |
-| Stripe (`539 Labs, LLC`) | Allowed fiat revenue only |
-| X (`@539LabsPQC`) | Announcements (human-approved posts) |
+| BSC | Token exists; heritage liquidity near-dead |
+| Stripe | Connected under 539 Labs account; **no GOLDC product created** (skipped) |
+| X | Not ready for API posting yet |
 
-## Monetization (compliant)
+## Monetization
 
-**Allowed via Stripe**
-- Merch / physical goods
-- Software / tools from 539 Labs
-- Memberships that do **not** promise token returns
-- Donations to 539 Labs operations (separate from on-chain charity)
-
-**Not via Stripe**
-- Selling GOLDC or any crypto token
-- Investment contracts / "buy coin with card"
-- Promising price appreciation
-
-Token acquisition stays on-chain (PancakeSwap / wallet).
+Deferred (zero-budget). If Stripe is used later: merch/membership/tools only — **never** token sales.
 
 ## Next actions
 
-1. Mirror brand assets into this repo
-2. Stand up a public launch page with risk disclosures
-3. Create Stripe Payment Link for a non-token product (Founders merch or 539 Labs tool access)
-4. Draft X announcement for approval
-5. Check liquidity depth and holder activity on BSC
+1. Enable GitHub Pages (Actions)
+2. Post from `ANNOUNCE.md` on personal/GOLDC channels only
+3. Community channels
+4. Liquidity only when capital exists
