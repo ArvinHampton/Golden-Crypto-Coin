@@ -2,6 +2,8 @@
 
 **Public presence home** for Golden Crypto Coin — an open-source BEP-20 with built-in burn and charity routing. Published by [Arvin Hampton](https://github.com/ArvinHampton).
 
+> **Live site:** https://arvinhampton.github.io/Golden-Crypto-Coin/
+
 > **Separate product.** GOLDC is not the 539 Labs cryptography / HQH-539-512 / investor-researcher track. Those stay at [539labs.org](https://539labs.org).
 
 > **Presence-first / zero-budget.** Docs and community first. DEX liquidity is currently near-zero (~$2 reserve, no active priced market) — **not** an active trading market until a funded pool exists.
@@ -13,18 +15,8 @@
 | **Contract** | [`0x7ed52b30ae68463a21994371c3a77d18dd144fc8`](https://bscscan.com/token/0x7ed52b30ae68463a21994371c3a77d18dd144fc8) |
 | **Mechanics** | 1% burn + 1% charity on every transfer |
 | **Charity** | [Free the Food](https://giveth.io/project/free-the-food) |
-| **Site** | [arvinhampton.github.io/Golden-Crypto-Coin](https://arvinhampton.github.io/Golden-Crypto-Coin/) (enable Pages if blank) |
+| **Site** | [arvinhampton.github.io/Golden-Crypto-Coin](https://arvinhampton.github.io/Golden-Crypto-Coin/) |
 | **Heritage** | [`GHampton23/Crypto`](https://github.com/GHampton23/Crypto) (2021) |
-
----
-
-## Enable the free site (no Actions)
-
-1. Open [Pages settings](https://github.com/ArvinHampton/Golden-Crypto-Coin/settings/pages)
-2. Source → **Deploy from a branch**
-3. Branch → `main` / folder → `/docs` → Save
-
-Site: https://arvinhampton.github.io/Golden-Crypto-Coin/
 
 ---
 
@@ -43,10 +35,10 @@ Not financial advice. Crypto is risky. DYOR. Nothing here is an offer to sell se
 
 | Doc | Purpose |
 |---|---|
-| [`docs/index.html`](./docs/index.html) | Public landing page |
+| [`index.html`](./index.html) | Public landing page (site root) |
+| [`ANNOUNCE.md`](./ANNOUNCE.md) | Ready-to-post copy |
 | [`ZERO-BUDGET.md`](./ZERO-BUDGET.md) | Free launch playbook |
 | [`STATUS.md`](./STATUS.md) | On-chain reality check |
-| [`ANNOUNCE.md`](./ANNOUNCE.md) | Ready-to-post copy |
 | [`contract.sol`](./contract.sol) | Verified contract source |
 | [`LAUNCH.md`](./LAUNCH.md) | Ops notes |
 
@@ -72,12 +64,11 @@ Still in the heritage repo (free to hotlink / mirror later):
 ## Roadmap
 
 - [x] Canonical GitHub home
-- [x] Landing page + zero-budget playbook
+- [x] Landing page live on GitHub Pages
+- [x] Zero-budget playbook + announce pack
 - [x] On-chain status published
-- [x] Announcement pack
 - [x] Brand-separation review (539 Labs Ops)
 - [x] Remove failing Actions Pages workflow
-- [ ] Enable GitHub Pages from branch `main` / `/docs`
 - [ ] Post announcement (prefer `@ArvinHampton` / personal channels — not 539 Labs investor channels)
 - [ ] Community channels
 - [ ] Liquidity only when capital exists
