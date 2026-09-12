@@ -14,16 +14,25 @@
 |---|---|
 | GitHub (`ArvinHampton/Golden-Crypto-Coin`) | Canonical public docs + contract |
 | BSC | Token exists; heritage liquidity near-dead |
-| Stripe | Connected under 539 Labs account; **no GOLDC product created** (skipped) |
-| X | Not ready for API posting yet |
+| Stripe | Connected (539 Labs account); **Founders Pack live** |
+| X | API enrollment still needed; browser post used for announce |
 
-## Monetization
+## Monetization (brand → cash)
 
-Deferred (zero-budget). If Stripe is used later: merch/membership/tools only — **never** token sales.
+| Item | Detail |
+|---|---|
+| Product | Golden Crypto Founders Pack |
+| Price | `$29` USD one-time |
+| Payment Link | https://buy.stripe.com/dRmaEWcJeaXt38N0BjbEA02 |
+| Product ID | `prod_VFEtjI700dsgw5` |
+| Price ID | `price_1UEkPPCQLkwPXwCzABV6I6E2` |
+| Fulfillment | Manual email of PDF + brand zip |
+| Rules | Digital goods only — **never** token sales |
 
 ## Next actions
 
-1. Enable GitHub Pages (Actions)
+1. Keep buy CTA live on Pages site
 2. Post from `ANNOUNCE.md` on personal/GOLDC channels only
-3. Community channels
-4. Liquidity only when capital exists
+3. Pin X post / update bio with site + buy link
+4. Community channels
+5. Liquidity only when capital exists
