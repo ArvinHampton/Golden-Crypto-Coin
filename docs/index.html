@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Golden Crypto Coin (GOLDC)</title>
+  <meta name="description" content="Golden Crypto Coin — open-source BEP-20 with 1% burn and 1% charity. Public relaunch by 539 Labs." />
+  <style>
+    :root { --bg:#0b0a08; --fg:#f6e7c1; --muted:#b9a57a; --gold:#d4af37; --card:#17140f; --line:#2a2418; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; background:radial-gradient(1200px 600px at 20% -10%, #3a2a0a 0%, var(--bg) 55%); color:var(--fg); line-height:1.5; }
+    main { max-width:820px; margin:0 auto; padding:48px 20px 80px; }
+    h1 { font-size:clamp(2rem,5vw,3rem); margin:0 0 8px; letter-spacing:-0.02em; }
+    .tag { color:var(--gold); font-weight:700; letter-spacing:0.08em; text-transform:uppercase; font-size:0.8rem; }
+    p.lead { color:var(--muted); font-size:1.1rem; max-width:40rem; }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:18px; margin:18px 0; }
+    .mono { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:0.9em; word-break:break-all; }
+    a { color:var(--gold); }
+    .row { display:flex; flex-wrap:wrap; gap:10px; margin-top:18px; }
+    .btn { display:inline-block; padding:10px 14px; border-radius:999px; border:1px solid var(--gold); color:var(--bg); background:var(--gold); text-decoration:none; font-weight:700; }
+    .btn.secondary { background:transparent; color:var(--gold); }
+    ul { margin:8px 0 0 18px; color:var(--muted); }
+    footer { margin-top:36px; color:var(--muted); font-size:0.9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="tag">539 Labs · Public relaunch</div>
+    <h1>Golden Crypto Coin</h1>
+    <p class="lead">Open-source BEP-20 token (<strong>GOLDC</strong>) with 1% burn and 1% routed to <a href="https://giveth.io/project/free-the-food">Free the Food</a> on every transfer.</p>
+    <div class="row">
+      <a class="btn" href="https://github.com/ArvinHampton/Golden-Crypto-Coin">GitHub home</a>
+      <a class="btn secondary" href="https://github.com/ArvinHampton/Golden-Crypto-Coin/blob/main/contract.sol">View contract</a>
+      <a class="btn secondary" href="https://bscscan.com/token/0x7ed52b30ae68463a21994371c3a77d18dd144fc8">BscScan</a>
+    </div>
+    <div class="card">
+      <strong>Contract</strong><br />
+      <span class="mono">0x7ed52b30ae68463a21994371c3a77d18dd144fc8</span>
+      <ul>
+        <li>Network: BNB Smart Chain (BEP-20)</li>
+        <li>Ticker: GOLDC</li>
+        <li>Mechanics: 1% burn + 1% charity per transfer</li>
+      </ul>
+    </div>
+    <div class="card">
+      <strong>Zero-budget launch status</strong>
+      <ul>
+        <li>Public docs and contract source are live on GitHub</li>
+        <li>Heritage DEX liquidity is currently near-zero — do not treat this as an active market</li>
+        <li>Tradability returns only when a funded pool exists (community/partner/self-funded later)</li>
+      </ul>
+    </div>
+    <div class="card">
+      <strong>Not financial advice.</strong>
+      Cryptocurrency is risky and volatile. This page is informational. Nothing here is an offer to sell securities or a promise of returns.
+    </div>
+    <footer>
+      539 Labs, LLC · <a href="https://539labs.org">539labs.org</a> ·
+      Source lineage: <a href="https://github.com/GHampton23/Crypto">GHampton23/Crypto</a>
+    </footer>
+  </main>
+</body>
+</html>
